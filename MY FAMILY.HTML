@@ -5,9 +5,8 @@ MY FAMILY
 </TITLE>
 <link rel="icon" href="HOME.svg">
 <style>
-p{color:white;
-font-size:30px
-}
+
+
 body {
   background-image: url('BG.jpg');
 background-attachment: fixed;
@@ -15,37 +14,62 @@ background-attachment: fixed;
 background-attachment: fixed;
   background-repeat: no-repeat;
 }
-table{table-layout:fixed
-}
-table, th, td {
-  border: 5px solid PINK;
-  color:WHITE;
-border-collapse: collapse;
-WIDTH:100%;
-font-size:30px;
-}
 A {COLOR:WHITE
 }
-.img1{float:left;
-margin-right:15px
+p{color:white;
+font-size:30px
+}
+LI{FONT-SIZE:30PX;
+COLOR:WHITE
 }
 
-.img2{float:right;
-margin-left:15px
+LI{FLOAT:LEFT
 }
-.img3{float:left;
-margin-right:15px
+
+li a {
+  display: inline-block
+;
+  color: white;
+
+  text-align: center;
+
+  padding: 40px 40px;
+
+  text-decoration: none;
+font-size:30px
+
 }
-</style>
-<TABLE>
-<TR>
-<TH><A HREF="HOME.HTML"><IMG SRC="HOME.svg" ALT="HOME" HEIGHT="50" WIDTH="50"></A></TH>
-<TH><A HREF="ABOUT ME.HTML">ABOUT ME</A></TH>
-<TH><A HREF="TRAVEL BLOG.HTML">TRAVEL BLOG</TH>
-<TH>MY FAMILY</TH>
-<TH><A HREF="CONTACT ME.HTML">CONTACT ME</a></TH>
-</TR>
-</TABLE>
+
+li a:hover {
+  background-color: grey;
+
+}
+
+li .family{background-color: #c79c00;
+}
+
+ul {
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: #398000;
+
+}
+
+
+</STYLE>
+<ul>
+<li><A class="home" HREF="HOME.HTML"><IMG SRC="HOME.svg" ALT="HOME" HEIGHT="38" WIDTH="50"></A></li>
+<li><A class="about" HREF="ABOUT ME.HTML">ABOUT ME</A></li>
+<li><A class="travel" HREF="TRAVEL BLOG.HTML">TRAVEL BLOG</A></li>
+<li><A class="family" HREF="MY FAMILY.HTML">MY FAMILY</a></li>
+<li><A class="contact" HREF="CONTACT ME.HTML">CONTACT ME</a></li>
+</ul>
 </HEAD>
 <BODY>
 <P><IMG CLASS="IMG1" SRC="SINGAPORE.FAMILY.JPG" ALT="FAMILY PHOTO 1" WIDTH="250" HEIGHT="250"></IMG>
